@@ -13,7 +13,7 @@ return(
                 redsocial1 = 'facebook'
                 redsocial2 = 'github'
                 redsocial3 = 'linkedin'
-                />
+            />
             <Formulario mostrarMensaje={validacion}/>
             <Alert
                 mensaje= {mensaje.msg}

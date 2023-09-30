@@ -45,48 +45,48 @@ return(
         <p>O usa tu Email para registrarte</p>
         <form className="formulario" onSubmit={validarDatos}>
             <div className="form-group">
-            <label>Nombre</label>
-            <input
-            type="text"
-            name="nombre"
-            className="form-control"
-            onChange={(e) => setNombre(e.target.value)}
-            value={nombre}
-            /> 
-        </div>
-        <div className="form-group">
-            <label>Email</label>
-            <input
-            type="email"
-            name="email"
-            className="form-control"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-            />
-        </div>
-        <div className="form-group">
-            <label>Contraseña</label>
-            <input
-            type="password"
-            name="contraseña"
-            className="form-control"
-            onChange={(e) => setContraseña(e.target.value)}
-            value={contraseña}  
-            />
-        </div>
-        <div className="form-group">
-            <label>Confirmar Contraseña</label>
-            <input
-            type="password"
-            name="confirmar-contraseña"
-            className="form-control"
-            onChange={(e) => setConfirmarContraseña(e.target.value)}
-            value={confirmarContraseña} 
-            />
-        </div>
-        <div className="d-grid">
-            <button className="btn btn-success" type="submit">Registrarse</button>
-        </div>
+                <label>Nombre</label>
+                <input
+                type="text"
+                name="nombre"
+                className="form-control"
+                onChange={(e) => setNombre(e.target.value)}
+                value={nombre}
+                /> 
+            </div>
+            <div className="form-group">
+                <label>Email</label>
+                <input
+                type="email"
+                name="email"
+                className="form-control"
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+                />
+            </div>
+            <div className="form-group">
+                <label>Contraseña</label>
+                <input
+                type="password"
+                name="contraseña"
+                className="form-control"
+                onChange={(e) => setContraseña(e.target.value)}
+                value={contraseña}  
+                />
+            </div>
+            <div className="form-group">
+                <label>Confirmar Contraseña</label>
+                <input
+                type="password"
+                name="confirmar-contraseña"
+                className="form-control"
+                onChange={(e) => setConfirmarContraseña(e.target.value)}
+                value={confirmarContraseña} 
+                />
+            </div>
+            <div className="d-grid">
+                <button className="btn btn-success" type="submit">Registrarse</button>
+            </div>
     </form>
 </>
 )
