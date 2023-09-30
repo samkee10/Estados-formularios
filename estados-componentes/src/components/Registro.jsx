@@ -9,11 +9,11 @@ return(
     <>
         <div className="bg-light formulario p-4 rounded-5">
             <h1 className="fs-1">Crea una cuenta</h1>
-            <SocialButton>
-                redsocial1 = 'Facebook'
-                redsocial2 = 'Github'
-                redsocial3 = 'Linkedin'
-                </SocialButton>
+            <SocialButton
+                redsocial1 = 'facebook'
+                redsocial2 = 'github'
+                redsocial3 = 'linkedin'
+                />
             <Formulario mostrarMensaje={validacion}/>
             <Alert
                 mensaje= {mensaje.msg}
